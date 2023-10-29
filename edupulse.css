@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap')
+
+body{
+    font-family : 'Montserrat', sans-serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.move:hover a{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.color:hover a{
+    
+    font-weight: 500;
+}
+
+.bcolor:hover{
+    background-color: rgb(217, 212, 212);
+}
+
+.head{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(81, 113, 219);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name{
+    height: 25px;
+    width: 150px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.ele{
+    height: 25px;
+    width:500px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+   
+}
+.home{
+    height: 20px;
+    width: 50px;
+    color: aliceblue;
+
+}
+.about{
+    height: 20px;
+    width: 50px;
+    color: aliceblue;
+    
+}
+.contact{
+    height: 25px;
+    width: 50px;
+    color: aliceblue;
+}
+
+.dashboard{
+    height: 25px;
+    width: 50px;
+    color: aliceblue;
+}
+.ele a{
+    color: #dee2e6;
+    text-decoration: none;
+}
+.img{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img1{
+    height: 600px;
+    width: 45%;
+
+}
+.img button{
+    height: 50px;
+    width: 200px;
+    background-color: #5e60ce;
+    color: white;
+    border-radius: 5px;
+    text-decoration: solid;
+}
+
+.img2{
+    height: 600px;
+    width: 45%;
+   
+}
+.imgg{
+    height: 650px;
+    width: 90%;
+    background-image: url("piccccc.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img1 h1{
+    font-size: 3rem;
+    color: #0d3b66;
+}
+
+.img1 h2{
+    font-size: 3rem;
+}
+
+.img1 {
+    font-size: 1.5rem;
+   
+}
+.hed {
+    height: 80px;
+    width: 100%;
+    color: rgb(14, 14, 15);
+    background-color: #dee2e6;
+   text-align: center;
+   margin-top: 30px;
+   border-radius: 10px;
+   }
+   .hed{
+       font-size: 2rem;
+   }
+   .int{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.int1{
+    height: 300px;
+    width: 300px;
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+
+.int2{
+    height: 300px;
+    width: 50%;
+}
+.int2 p{
+    font-size: 2rem;
+
+}
+
+.roll{
+    height: 40px;
+    width: 200px;
+    background-color: #5e60ce;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.roll button{
+    height: 50px;
+    width: 200px;
+    background-color: #5e60ce;
+    color: white;
+    border-radius: 5px;
+    text-decoration: solid;
+}
+.box3{
+    height: 80px;
+    width: 100%;
+    color: rgb(14, 14, 15);
+    background-color: #dee2e6;
+   text-align: center;
+   margin-top: 30px;
+   border-radius: 10px;
+}
+
+.box3 h1{
+    font-size: 2.5rem;
+}
+.bbox{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.boxa{
+    height: 470px;
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.boxa h3{
+    font-size: 1.3rem;
+    padding-top: 80px;
+}
+
+.boxa h1{
+    font-size: 2rem;
+    padding-top: 80px;
+    color: #355070;
+}
+
+.boxa p{
+    font-size: 1.6rem;
+}  
+
+.foot1{
+    height: 300px;
+    width: 100%;
+    background-color: #5e60ce;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.mess1 {
+    height: 200px;
+    width: 30%;
+    padding-top: 50px;
+
+}
+
+.mess1  h2{
+    color: #dee2e6;
+    font-size: 1.5rem;
+}
+
+.mess1 p{
+    font-size: 1rem;
+    color: white;
+}
+
+.mess2{
+    height: 200px;
+    width: 30%;
+    padding-top: 50px;
+}
+
+.mess2 h3{
+    color: #dee2e6;
+    font-size: 1rem;
+    color: white;
+}
+
+.mess2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.mess2 p{
+    font-size: 1rem;
+    color: white;
+}
